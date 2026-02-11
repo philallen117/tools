@@ -1,8 +1,9 @@
 {
-  "version": "0.2",
-  "language": "en",
-  "words": [
-    "cleanignore",
-    "pathspec"
-  ]
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "cleanignore",
+        "gitwildmatch",
+        "pathspec"
+    ]
 }
