@@ -1,0 +1,10 @@
+[project]
+name = "clean-vsc-exts"
+version = "0.1.0"
+description = "Clean up VSCode extensions"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+clean-vsc-exts = "clean_vsc_exts:main"
