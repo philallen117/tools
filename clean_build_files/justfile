@@ -1,0 +1,10 @@
+# Install the tool using uv
+install:
+    uv tool install --editable .
+
+# Uninstall the tool
+uninstall:
+    uv tool uninstall clean-build-files
+
+# Reinstall the tool (useful after making changes)
+reinstall: uninstall install

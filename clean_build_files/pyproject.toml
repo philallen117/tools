@@ -1,0 +1,9 @@
+[project]
+name = "clean-build-files"
+version = "0.1.0"
+description = "Clean build files using .cleanignore patterns"
+requires-python = ">=3.14"
+dependencies = ["pathspec"]
+
+[project.scripts]
+clean-build-files = "clean:main"
