@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "pyrefly: Type Check",
+            "type": "shell",
+            "command": "pyrefly",
+            "args": [
+                "check",
+                "."
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "pytest: Run All Tests",
+            "type": "shell",
+            "command": "pytest",
+            "args": [
+                "."
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "ruff: Lint",
+            "type": "shell",
+            "command": "ruff",
+            "args": [
+                "check",
+                "."
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "ruff: Format",
+            "type": "shell",
+            "command": "ruff",
+            "args": [
+                "format",
+                "."
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
