@@ -7,7 +7,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-git-survey = "git_survey:main"
+git-survey = "main:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -6,7 +6,7 @@ requires-python = ">=3.13"
 dependencies = ["pathspec"]
 
 [project.scripts]
-clean-build-files = "clean:main"
+clean-build-files = "main:main"
 
 [build-system]
 requires = ["hatchling"]
