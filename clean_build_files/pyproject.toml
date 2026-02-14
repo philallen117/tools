@@ -2,8 +2,12 @@
 name = "clean-build-files"
 version = "0.1.0"
 description = "Clean build files using .cleanignore patterns"
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = ["pathspec"]
 
 [project.scripts]
 clean-build-files = "clean:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
